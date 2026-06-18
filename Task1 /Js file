@@ -16,13 +16,31 @@ document.addEventListener("DOMContentLoaded", function () {
         "Nice click!"
     ];
 
-    let clickCount = 0;
+    // The key we'll use to save/read the click count in localStorage
+    const STORAGE_KEY = "clickCount";
+
+    // Read the saved click count from localStorage (if any).
+    // localStorage.getItem() returns a string, or null if nothing is saved,
+    // so we convert it to a number and default to 0 the first time.
+    let clickCount = Number(localStorage.getItem(STORAGE_KEY)) || 0;
+
+    // If we already have a saved count from a previous visit, show it
+    // right away instead of waiting for the next click.
+    if (clickCount > 0) {
+        greetMessage.textContent = `Welcome back! You've clicked ${clickCount} time(s) before.`;
+    }
 
     // Run this function every time the button is clicked
     greetBtn.addEventListener("click", function () {
         // Pick a message based on how many times the button was clicked
         const message = messages[clickCount % messages.length];
         greetMessage.textContent = message;
+
         clickCount++;
+
+        // localStorage.setItem() always expects a string, so we convert
+        // the number before saving. This value will still be there even
+        // after closing the browser and coming back later.
+        localStorage.setItem(STORAGE_KEY, clickCount);
     });
 });
