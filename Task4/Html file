@@ -1,1 +1,36 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hyperlink Navigation Page</title>
+</head>
+<body>
+
+    <h1>Hyperlink Navigation Demo</h1>
+
+    <!-- Internal Hyperlinks -->
+    <h2>Internal Links</h2>
+    <p>
+        <a href="home.html">Go to Home Page</a>
+    </p>
+    <p>
+        <a href="about.html">Go to About Page</a>
+    </p>
+    <p>
+        <a href="contact.html">Go to Contact Page</a>
+    </p>
+
+    <!-- External Hyperlinks -->
+    <h2>External Links</h2>
+    <p>
+        <a href="https://www.google.com" target="_blank">Visit Google</a>
+    </p>
+    <p>
+        <a href="https://www.wikipedia.org" target="_blank">Visit Wikipedia</a>
+    </p>
+    <p>
+        <a href="https://www.openai.com" target="_blank">Visit OpenAI</a>
+    </p>
+
+</body>
+</html>
