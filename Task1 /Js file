@@ -1,1 +1,28 @@
 
+// script.js - controls the behavior of index.html
+
+// Wait until the page content is fully loaded before running the script
+document.addEventListener("DOMContentLoaded", function () {
+
+    // Grab references to the button and the message paragraph
+    const greetBtn = document.getElementById("greetBtn");
+    const greetMessage = document.getElementById("greetMessage");
+
+    // A small list of messages to show, just to demonstrate JS logic
+    const messages = [
+        "Hello there! 👋",
+        "You just clicked a button with JavaScript!",
+        "HTML gives structure, CSS gives style, JS gives behavior.",
+        "Nice click!"
+    ];
+
+    let clickCount = 0;
+
+    // Run this function every time the button is clicked
+    greetBtn.addEventListener("click", function () {
+        // Pick a message based on how many times the button was clicked
+        const message = messages[clickCount % messages.length];
+        greetMessage.textContent = message;
+        clickCount++;
+    });
+});
