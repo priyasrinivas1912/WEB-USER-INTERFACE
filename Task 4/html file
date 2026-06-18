@@ -1,1 +1,59 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ordered and Unordered Lists</title>
+</head>
+<body>
+
+    <h1>Lists in HTML</h1>
+
+    <!-- Ordered List -->
+    <h2>Ordered List</h2>
+    <ol>
+        <li>Wake Up</li>
+        <li>Brush Teeth</li>
+        <li>Have Breakfast</li>
+        <li>Go to College</li>
+    </ol>
+
+    <!-- Unordered List -->
+    <h2>Unordered List</h2>
+    <ul>
+        <li>Books</li>
+        <li>Pen</li>
+        <li>Notebook</li>
+        <li>Calculator</li>
+    </ul>
+
+    <!-- Nested List -->
+    <h2>Nested List</h2>
+    <ol>
+        <li>Programming Languages
+            <ul>
+                <li>C</li>
+                <li>C++</li>
+                <li>Java</li>
+                <li>Python</li>
+            </ul>
+        </li>
+
+        <li>Web Technologies
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </li>
+
+        <li>Database Systems
+            <ul>
+                <li>MySQL</li>
+                <li>Oracle</li>
+                <li>MongoDB</li>
+            </ul>
+        </li>
+    </ol>
+
+</body>
+</html>
