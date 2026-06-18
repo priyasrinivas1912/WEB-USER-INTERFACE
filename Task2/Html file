@@ -1,1 +1,38 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personal Details</title>
+</head>
+<body>
+
+    <h1>Personal Profile</h1>
+
+    <h2>Photograph</h2>
+    <img src="photo.jpg" alt="My Photo" width="150" height="150">
+
+    <h2>Name</h2>
+    <p>John Doe</p>
+
+    <h2>Educational Qualifications</h2>
+    <ul>
+        <li>B.Tech in Computer Science</li>
+        <li>Intermediate - XYZ Junior College</li>
+        <li>SSC - ABC High School</li>
+    </ul>
+
+    <h2>Hobbies</h2>
+    <ul>
+        <li>Reading Books</li>
+        <li>Playing Cricket</li>
+        <li>Listening to Music</li>
+        <li>Programming</li>
+    </ul>
+
+    <h2>Contact Information</h2>
+    <p>Email: johndoe@example.com</p>
+    <p>Phone: +91 9876543210</p>
+    <p>Address: Vijayawada, Andhra Pradesh, India</p>
+
+</body>
+</html>
