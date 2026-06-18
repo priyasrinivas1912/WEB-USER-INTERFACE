@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Information Page</title>
+</head>
+<body>
+
+    <h1>ABC Engineering College</h1>
+
+    <h2>About the College</h2>
+    <p>
+        ABC Engineering College is a reputed institution providing quality education
+        and creating skilled professionals in various fields of technology and science.
+    </p>
+
+    <h2>Vision</h2>
+    <p>
+        To become a leading educational institution by providing innovative learning
+        and developing students with knowledge and skills.
+    </p>
+
+    <h2>Mission</h2>
+    <ul>
+        <li>Provide quality education and practical knowledge.</li>
+        <li>Encourage research and innovation.</li>
+        <li>Develop professional and ethical values among students.</li>
+    </ul>
+
+    <h2>Departments</h2>
+    <ol>
+        <li>Computer Science Engineering</li>
+        <li>Electronics and Communication Engineering</li>
+        <li>Mechanical Engineering</li>
+        <li>Civil Engineering</li>
+        <li>Electrical Engineering</li>
+    </ol>
+
+    <h2>Facilities</h2>
+    <ul>
+        <li>Library</li>
+        <li>Computer Labs</li>
+        <li>Science Laboratories</li>
+        <li>Sports Ground</li>
+        <li>Hostel Facility</li>
+        <li>Cafeteria</li>
+    </ul>
+
+    <h2>Contact Information</h2>
+    <p>
+        Address: ABC Engineering College, Andhra Pradesh, India
+    </p>
+    <p>
+        Email: info@abccollege.com
+    </p>
+    <p>
+        Phone: +91 9876543210
+    </p>
+
+</body>
+</html>
