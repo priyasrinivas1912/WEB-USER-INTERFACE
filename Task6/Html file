@@ -1,1 +1,34 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Gallery Page</title>
+</head>
+<body>
+
+    <h1>My Image Gallery</h1>
+
+    <h2>Nature Images</h2>
+
+    <img src="image1.jpg" alt="Beautiful mountain view" width="250" height="200">
+    <p>Caption: Beautiful Mountain Landscape</p>
+
+    <img src="image2.jpg" alt="Green forest with trees" width="250" height="200">
+    <p>Caption: Green Forest View</p>
+
+    <img src="image3.jpg" alt="Blue ocean with waves" width="250" height="200">
+    <p>Caption: Peaceful Ocean</p>
+
+    <h2>Animal Images</h2>
+
+    <img src="image4.jpg" alt="Lion sitting in the jungle" width="250" height="200">
+    <p>Caption: Lion in Jungle</p>
+
+    <img src="image5.jpg" alt="Bird sitting on a branch" width="250" height="200">
+    <p>Caption: Beautiful Bird</p>
+
+    <img src="image6.jpg" alt="Elephant walking in forest" width="250" height="200">
+    <p>Caption: Elephant in Forest</p>
+
+</body>
+</html>
